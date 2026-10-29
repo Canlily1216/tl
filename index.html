@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谭灵 - 作品集 | 游戏策划 & 3D建模</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #eee;
+            line-height: 1.7;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 25px;
+        }
+        header h1 {
+            font-size: 36px;
+            color: #60a5fa;
+            margin-bottom:8px;
+        }
+        header .sub-title {
+            font-size: 18px;
+            color:#aaa;
+            margin-bottom:12px;
+        }
+        .contact-info {
+            color:#999;
+            font-size:15px;
+        }
+        section {
+            margin:40px 0;
+        }
+        h2 {
+            color:#60a5fa;
+            border-left:4px solid #60a5fa;
+            padding-left:12px;
+            margin-bottom:20px;
+        }
+        .intro {
+            color:#ccc;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+            gap:24px;
+        }
+        .card {
+            background:#1e1e1e;
+            border-radius:10px;
+            overflow:hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 20px #00000060;
+        }
+        .card img {
+            width:100%;
+            height:260px;
+            object-fit:cover;
+            display:block;
+        }
+        .card p {
+            text-align:center;
+            padding:12px;
+            font-weight:500;
+        }
+        .skill-list, .edu-item, .project-item {
+            background:#1e1e1e;
+            padding:20px;
+            border-radius:10px;
+            margin-bottom:16px;
+        }
+        .skill-list span {
+            display:inline-block;
+            background:#253b56;
+            color:#93c5fd;
+            padding:4px 10px;
+            border-radius:6px;
+            margin:4px;
+        }
+        footer {
+            text-align:center;
+            margin-top:60px;
+            padding-top:20px;
+            border-top:1px solid #333;
+            color:#777;
+            font-size:14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>👋 你好，我是谭灵</h1>
+        <div class="sub-title">求职意向：游戏执行策划｜3D建模师</div>
+        <div class="contact-info">
+            📞 19802864658 | 📧 392486154@qq.com | 📍 成都
+        </div>
+    </header>
+
+    <section>
+        <h2>📋 个人简介</h2>
+        <div class="intro">
+            虚拟现实技术应用专业应届生，熟练使用 Unity、Unreal Engine 快速搭建游戏原型，拥有 2D 横版闯关项目完整实践经验，独立完成关卡布局、游玩节奏与难度设计。善用 AI 工具高效迭代美术资源，能够完成项目测试、记录并修复基础交互问题。具备原型设计思维，重视玩家游玩体验；学习能力强，擅长把设计想法落地到引擎中，有较好的文档撰写与沟通能力。
+        </div>
+    </section>
+
+    <section>
+        <h2>🎨 3D建模作品展示</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="zuopin/bj.png" alt="宝剑">
+                <p>宝剑</p>
+            </div>
+            <div class="card">
+                <img src="zuopin/bjz.png" alt="短剑">
+                <p>短剑</p>
+            </div>
+            <div class="card">
+                <img src="zuopin/majiu.png" alt="老旧建筑">
+                <p>老旧建筑</p>
+            </div>
+            <div class="card">
+                <img src="zuopin/hhhhhh.png" alt="牙膏道具">
+                <p>牙膏道具</p>
+            </div>
+            <div class="card">
+                <img src="zuopin/gyr.png" alt="椅子">
+                <p>椅子</p>
+            </div>
+            <div class="card">
+                <img src="zuopin/zzsn.png" alt="戴珍珠耳环的少女">
+                <p>戴珍珠耳环的少女</p>
+            </div>
+        </div>
+        <p style="margin-top:12px;color:#aaa;font-size:14px;">建模工具：Blender，完成道具、场景构件三维建模、UV拆分、基础材质绘制；产出可导入游戏引擎的3D资产。</p>
+    </section>
+
+    <section>
+        <h2>💻 专业技能</h2>
+        <div class="skill-list">
+            <span>Unity</span>
+            <span>Unreal Engine</span>
+            <span>Blender</span>
+            <span>关卡设计</span>
+            <span>策划文档</span>
+            <span>资源迭代</span>
+            <span>模型UV</span>
+            <span>资产轻量化</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>📁 项目经历</h2>
+        <div class="project-item">
+            <h3>2D横版闯关游戏 Demo｜独立项目</h3>
+            <p>使用Unity引擎完成游戏原型开发，独立负责关卡设计、游戏场景搭建。借助AI工具完成美术资源换皮迭代，快速测试关卡布局与游玩节奏。实现角色移动、碰撞检测等基础游戏交互，输出可直接运行的游戏Demo。</p>
+        </div>
+        <div class="project-item">
+            <h3>虚拟现实课程实践项目</h3>
+            <p>使用Blender完成道具、场景三维建模，完成UV拆分、基础材质绘制。控制模型面数，遵循游戏资产轻量化规范，制作适配引擎的3D模型资产，并导入Unity进行场景预览。</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>🎓 教育背景</h2>
+        <div class="edu-item">
+            <h3>成都职业技术学院 | 虚拟现实技术应用（大专）</h3>
+            <p>2024‑2026<br>主修：数字化模型与动画、虚拟现实应用开发、虚拟现实程序设计</p>
+        </div>
+    </section>
+
+    <footer>
+        持续学习3D建模与游戏策划，作品持续更新
+    </footer>
+</body>
+</html>
